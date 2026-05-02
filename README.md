@@ -10,9 +10,9 @@ This paper argues that the main bottleneck in test-time scaling for agentic codi
 `As far as I know, there is no public implementation of this paper yet.`
 
 ## Terminal Code
-`git clone https://github.com/genji970/Implementation_of_facebook_harness-inference-scale-agent`
+`git clone https://github.com/genji970/facebook-paper_harness-inference-scale-agent`
 
-`cd your/path/Implementation_of_facebook_harness-inference-scale-agent`
+`cd your/path/facebook-paper_harness-inference-scale-agent`
 
 `change gemini_api_key value in below code, GEMINI_API_KEY= & gemini_api_key= `
 
