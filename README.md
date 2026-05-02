@@ -5,6 +5,8 @@ paper implementation of Meta Ai
 
 `cd your/path/Scaling-Test-Time-Compute-for-Agentic-Coding-`
 
+`change gemini_api_key value in .env`
+
 ## Experiment Run
 
 `pip install -r requirements.txt`
@@ -71,3 +73,25 @@ python -m swebench.harness.run_evaluation \
   --run_id gemini_3_pro_pdr_rtv_eval \
   --cache_level env
 ```
+
+
+
+## Implementation 
+
+Paper introduces gemini-3.1, opus, etc and two benchmark dataset for evaluation.
+But I only coded for gemini-3.1-pro and for SWEbenchmark only.
+
+# paper link
+`https://arxiv.org/abs/2604.16529v1`
+
+
+## Citatiton
+@misc{kim2026scalingtesttimecomputeagentic,
+      title={Scaling Test-Time Compute for Agentic Coding}, 
+      author={Joongwon Kim and Wannan Yang and Kelvin Niu and Hongming Zhang and Yun Zhu and Eryk Helenowski and Ruan Silva and Zhengxing Chen and Srinivasan Iyer and Manzil Zaheer and Daniel Fried and Hannaneh Hajishirzi and Sanjeev Arora and Gabriel Synnaeve and Ruslan Salakhutdinov and Anirudh Goyal},
+      year={2026},
+      eprint={2604.16529},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2604.16529}, 
+}
