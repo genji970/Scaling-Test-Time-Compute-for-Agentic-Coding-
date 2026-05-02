@@ -1,0 +1,68 @@
+
+# API keys / tokens / credentials
+*key*
+*token*
+*secret*
+*credential*
+credentials.json
+client_secret*.json
+token.json
+tokens/
+secrets/
+auth/
+*.pem
+*.key
+*.crt
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Logs / debug outputs
+# =========================
+*.log
+logs/
+debug_traces/
+outputs/
+runs/
+wandb/
+mlruns/
+
+# =========================
+# Editor / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Data / generated files
+# =========================
+data/
+datasets/
+checkpoints/
+models/
+.cache/
+tmp/
+temp/
