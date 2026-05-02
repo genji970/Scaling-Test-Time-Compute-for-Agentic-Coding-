@@ -1,0 +1,18 @@
+# OpenAI-compatible chat completion client.
+openai>=1.30.0
+
+# Optional: used only by scripts/download_data.sh swe-lite.
+datasets>=2.19.0
+
+# Kept for future schema validation extension; current code mainly uses dataclasses.
+pydantic>=2.7.0
+
+# Optional convenience if you prefer loading .env in custom scripts.
+python-dotenv>=1.0.1
+
+# Optional progress-bar utility for larger custom experiments.
+tqdm>=4.66.0
+
+google-genai
+'litellm[proxy]'
+mini-swe-agent
