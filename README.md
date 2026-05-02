@@ -7,6 +7,8 @@ This paper was released on April 16, 2026.
 
 This paper argues that the main bottleneck in test-time scaling for agentic coding is not simply generating more attempts, but representing, selecting, and reusing prior agent experience effectively. It converts long rollout trajectories into compact structured summaries that capture key hypotheses, progress, and failure modes. Using these summaries, it combines Recursive Tournament Voting (RTV) for parallel selection with Parallel-Distill-Refine (PDR) for sequential improvement. The method consistently improves frontier coding agents on SWE-Bench Verified and Terminal-Bench v2.0. Overall, the paper frames long-horizon agent scaling as a problem of representation, selection, and reuse.
 ```
+`As far as I know, there is no public implementation of this paper yet.`
+
 
 `git clone https://github.com/genji970/Scaling-Test-Time-Compute-for-Agentic-Coding-` 
 
