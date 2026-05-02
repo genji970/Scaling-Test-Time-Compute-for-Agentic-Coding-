@@ -10,9 +10,9 @@ This paper argues that the main bottleneck in test-time scaling for agentic codi
 `As far as I know, there is no public implementation of this paper yet.`
 
 ## Terminal Code
-`git clone https://github.com/genji970/Scaling-Test-Time-Compute-for-Agentic-Coding-` 
+`git clone https://github.com/genji970/harness-inference-scale-agent`
 
-`cd your/path/Scaling-Test-Time-Compute-for-Agentic-Coding-`
+`cd your/path/harness-inference-scale-agent`
 
 `change gemini_api_key value in below code, GEMINI_API_KEY= & gemini_api_key= `
 
