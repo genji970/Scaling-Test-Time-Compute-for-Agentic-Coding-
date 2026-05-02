@@ -14,7 +14,7 @@ This paper argues that the main bottleneck in test-time scaling for agentic codi
 
 `cd your/path/Scaling-Test-Time-Compute-for-Agentic-Coding-`
 
-`change gemini_api_key value in .env`
+`change gemini_api_key value in below code, GEMINI_API_KEY=`
 
 ## Experiment Run
 
@@ -28,11 +28,10 @@ And make one more terminal. And run below code in new terminal.
 source .env
 
 MSWEA_MODEL_NAME="gemini/gemini-3-pro-preview" \
-GEMINI_API_KEY="$GEMINI_API_KEY" \
+GEMINI_API_KEY="AIzaSyxxxxxxxxxxxxxxxxxxxxxxxx" \
 python experiment/run.py \
   --provider "gemini" \
-  --model_name "gemini-3-pro-preview" \
-  --gemini_api_key "$GEMINI_API_KEY" \
+  --gemini_api_key "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxx" \
   --dataset_name "princeton-nlp/SWE-bench_Verified" \
   --train_split "test" \
   --max_dataset_samples 1 \
