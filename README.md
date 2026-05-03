@@ -84,7 +84,7 @@ python -m swebench.harness.run_evaluation \
 
 
 
-## Implementation 
+## Implementation Detail
 
 Paper introduces gemini-3.1, opus, etc and two benchmark dataset for evaluation.
 But I only coded for gemini-3.1-pro and for SWEbenchmark only.
